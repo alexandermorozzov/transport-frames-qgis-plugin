@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+_autosummary
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.iduedu_cache
+.cache
+.pytest_cache/
+examples/cache/
+cache
+bd_data/
+data/
+.DS_Store
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+
+# Flask stuff
+instance/
+.webassets-cache
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+test_venv/
+# MyPy
+.mypy_cache/
+
+# PyCharm env
+.idea
