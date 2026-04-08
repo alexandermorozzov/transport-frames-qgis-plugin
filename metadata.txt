@@ -1,16 +1,20 @@
 [general]
 name=Transport Frames
-description=QGIS tools for transport_frames workflows
-about=QGIS Processing provider for transport_frames library
-version=0.1.0
-qgisMinimumVersion=3.28
+qgisMinimumVersion=3.0
+description=QGIS Processing tools for transport_frames Python library: build drive/intermodal graphs, transport frames, and accessibility indicators.
+about=Runs transport_frames Python library workflows in QGIS using a managed or custom environment. Upstream library: https://github.com/alexandermorozzov/tf
+version=version 1.0
+changelog=1.0 - Initial release
+    Added QGIS Processing provider for transport_frames workflows
+    Added setup and status tools for managed/custom Python environments
+    Added graph, frame, grading, and indicator algorithms
 author=Alexander Morozov
 email=alexandermorozzov@gmail.com
-license=BSD-3-Clause
 hasProcessingProvider=yes
 category=Analysis
 tags=transport,accessibility,network,graph
-homepage=https://github.com/alexandermorozzov/tf
-repository=https://github.com/alexandermorozzov/tf
-tracker=https://github.com/alexandermorozzov/tf/issues
+homepage=https://github.com/alexandermorozzov/transport-frames-qgis-plugin
+repository=https://github.com/alexandermorozzov/transport-frames-qgis-plugin
+tracker=https://github.com/alexandermorozzov/transport-frames-qgis-plugin/issues
 experimental=True
+deprecated=False
