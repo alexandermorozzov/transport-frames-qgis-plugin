@@ -15,34 +15,34 @@ It helps configure a Python runtime and run graph, frame, grading, and indicator
 
 - `Processing Toolbox -> Transport Frames`
 - Algorithm groups:
-- `1 - Environment`
-- `2 - Graph`
-- `3 - Frame`
-- `4 - Grade`
-- `5 - Indicators`
+- `Environment`
+- `Graph`
+- `Frame`
+- `Grade`
+- `Indicators`
 
 ### Algorithms by group
 
-#### 1 - Environment
+#### Environment
 
 - `Setup Python Environment`: creates/updates a `venv` in the active QGIS profile, installs the package, and switches to managed mode.
 - `Environment Status`: shows current runtime mode and stored Python paths.
 
-#### 2 - Graph
+#### Graph
 
 - `Get Drive Graph`: builds a road graph from an `OSM relation ID` or territory boundary.
 - `Add Roads`: inserts new roads into an existing drive graph (`reg` is required).
 - `Get Intermodal Graph`: builds an intermodal graph (public transport + walk links).
 
-#### 3 - Frame
+#### Frame
 
 - `Get Weighted Frame`: builds a weighted transport frame from the input graph and supporting layers.
 
-#### 4 - Grade
+#### Grade
 
 - `Grade Territory`: calculates territory grades based on the weighted transport frame.
 
-#### 5 - Indicators
+#### Indicators
 
 - `Get Roads Length`: total road length by polygons.
 - `Get Roads Density`: road density by polygons.
@@ -61,12 +61,12 @@ It helps configure a Python runtime and run graph, frame, grading, and indicator
 
 ### Quick start
 
-1. Run `Setup Python Environment` and install `transport_frames` into the managed environment.
-2. Verify runtime mode with `Environment Status`.
-3. Build a graph (`Get Drive Graph` or `Get Intermodal Graph`).
-4. Run `Frame`, `Grade`, and required `Indicators`.
+1. Download the repository as a ZIP file (Code -> Download ZIP), then in QGIS go to Plugins -> Manage and Install Plugins -> Install from ZIP, select the archive, and click Install Plugin (extraction is done automatically).
+2. Run `Setup Python Environment` and install `transport_frames` into the managed environment.
+3. Verify runtime mode with `Environment Status`.
+4. Build a graph (`Get Drive Graph` or `Get Intermodal Graph`).
+5. Run `Frame`, `Grade`, and required `Indicators`.
 
 ### Repositories
 
-- Plugin: https://github.com/alexandermorozzov/transport-frames-qgis-plugin
 - Upstream library (`transport_frames`): https://github.com/alexandermorozzov/tf
